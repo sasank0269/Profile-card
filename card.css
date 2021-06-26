@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 657px;
+}
+.fullitems {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.top {
+    position: absolute;
+}
+.bottom{
+    position: absolute;
+}
+
+section.card{
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 380px;
+    background-image: url(images/bg-pattern-card.svg) ;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+}
+img {
+    border-radius: 50%;
+    background-color: white;
+    padding:3px;
+    margin-top: 25%;
+}
+.information{
+    display:flex;
+    justify-content: space-evenly;
+    border-top: 0.5px solid hsl(0, 0%, 59%);
+    margin: 0 3px;
+    padding: 10px 0;
+}
+.hero{
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 1px;
+}
+.count{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.name h1{
+    margin-top: 17px;
+    font-size: 18px;
+}
+.name h1 span{
+    color: hsl(0, 0%, 59%);
+}
+.name p{
+    color: hsl(229, 23%, 23%);
+}
+.top{
+    position: absolute;
+    top: -60%;
+    left: -15%;
+}
+.bottom{
+    position: absolute;
+    bottom: -80%;
+    right: -15%;
+}
+.bg{
+    overflow: hidden;
+}

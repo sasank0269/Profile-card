@@ -6,7 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/sasank0269/Profile-card.git]
+- Solution URL: [https://sasank0269.github.io/Profile-card/]
 
 ### Built with
 
